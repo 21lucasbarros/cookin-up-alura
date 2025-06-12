@@ -8,8 +8,8 @@
       />
 
       <p class="cabecalho-lg frase-cabecalho">
-        <span class="texto-verde">Um banquete de ideias para</span> despertar o
-        chef que há em você!
+        <span class="texto-verde">Um banquete de ideias para</span>
+        despertar o chef que há em você!
       </p>
 
       <p class="subtitulo-lg">
@@ -17,6 +17,7 @@
         seu alcance!
       </p>
     </div>
+
     <img
       src="../assets/images/foto-banner.png"
       alt="Foto de uma mulher cozinhando com uma bacia de vidro nas mãos. Ela está sorrindo e está apoiando um celular entre seu rosto e ombro."
