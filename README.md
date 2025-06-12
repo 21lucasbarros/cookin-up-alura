@@ -1,33 +1,88 @@
-# cookin-up
+# Cookin'UP – Curso de Vue.js: Entendendo Componentes, Diretivas e Reatividade
 
-This template should help get you started developing with Vue 3 in Vite.
+Este é o repositório desenvolvido durante o curso **"Vue 3: entendendo componentes, diretivas e reatividade no framework"** da [Alura](https://www.alura.com.br/), ministrado pelo instrutor Antônio Evaldo.
 
-## Recommended IDE Setup
+## 📚 Sobre o Curso
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Neste curso, aprendemos a criar um projeto Vue.js do zero, utilizando **componentes**, **diretivas** e explorando os conceitos de **estado** e **reatividade**. Também abordamos a **comunicação entre componentes** via `props` e `eventos`, além dos **ciclos de vida** como o `created`.
 
-## Type Support for `.vue` Imports in TS
+A proposta é construir uma aplicação real, o **Cookin'UP**, que permite ao usuário selecionar ingredientes disponíveis em casa e receber sugestões de receitas compatíveis.
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## 🚀 Tecnologias Utilizadas
 
-## Customize configuration
+- [Vue.js 3](https://vuejs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- HTML5, CSS3 e JavaScript ES6+
+- Vite para build e desenvolvimento
+- Figma (protótipo visual)
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## 🛠️ Atividades Desenvolvidas
 
-## Project Setup
+- Criação de um projeto Vue com Vite
+- Estruturação de componentes reutilizáveis
+- Utilização de diretivas como `v-if`, `v-for`, `v-model`
+- Manipulação de estado e aplicação de reatividade
+- Comunicação entre componentes com `props` e `emit`
+- Organização de interfaces e serviços HTTP com TypeScript
+- Aplicação de métodos do ciclo de vida (`created`)
+- Implementação de lógica de seleção de ingredientes e exibição de receitas
 
-```sh
-npm install
+## 🧩 Estrutura do Projeto
+
+```plaintext
+21lucasbarros-cookin-up-alura/
+├── public/
+│   └── imagens/
+│       ├── icones/
+│       │   └── categorias_ingredientes/
+│       └── receitas/
+└── src/
+    ├── App.vue
+    ├── main.ts
+    ├── assets/
+    │   ├── main.css
+    │   └── images/
+    │       └── icones/
+    ├── components/
+    │   ├── Banner.vue
+    │   ├── BotaoPrincipal.vue
+    │   ├── CardCategoria.vue
+    │   ├── CardReceitas.vue
+    │   ├── ConteudoPrincipal.vue
+    │   ├── IngredienteSelecionavel.vue
+    │   ├── MostrarReceitas.vue
+    │   ├── Rodape.vue
+    │   ├── SelecionarIngredientes.vue
+    │   ├── SuaLista.vue
+    │   └── Tag.vue
+    ├── http/
+    │   └── index.ts
+    ├── interfaces/
+    │   ├── ICategoria.ts
+    │   └── IReceitas.ts
+    └── operacoes/
+        └── listas.ts
 ```
 
-### Compile and Hot-Reload for Development
+## 🎨 Protótipo no Figma
 
-```sh
-npm run dev
-```
+Você pode acessar o protótipo do projeto no Figma por este link:  
+👉 [Figma - Cookin'UP](https://www.figma.com/file/0YlJl7HQ7flDoEZZ8tB88A/Cookin'UP-%7C-Vue-1?node-id=1901%3A2&mode=dev)
 
-### Type-Check, Compile and Minify for Production
+## 📌 Pré-requisitos
 
-```sh
-npm run build
-```
+Antes de começar, é importante já ter noções básicas de:
+
+- HTML e CSS
+- JavaScript (intermediário)
+- TypeScript (básico)
+- Terminal e Node.js
+
+## ✅ Status
+
+✔️ Projeto finalizado como parte do curso.  
+🔧 Possíveis melhorias e refatorações podem ser aplicadas futuramente.
+
+---
+
+**Bons estudos e bom código!**
